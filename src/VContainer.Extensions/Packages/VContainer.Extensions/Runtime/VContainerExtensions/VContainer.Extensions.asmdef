@@ -1,0 +1,28 @@
+﻿{
+  "name": "VContainer.Extensions",
+  "rootNamespace": "VContainer",
+  "references": [
+    "VContainer",
+    "ZLogger",
+    "ZString"
+  ],
+  "overrideReferences": true,
+  "precompiledReferences": [
+    "Castle.Core.dll",
+    "Microsoft.Extensions.Logging.Abstractions.dll",
+    "Microsoft.Extensions.Logging.dll",
+    "Moq.dll"
+  ],
+  "versionDefines": [
+    {
+      "name": "com.cysharp.zlogger",
+      "expression": "",
+      "define": "ZLOGGER_SUPPORT"
+    },
+    {
+      "name": "com.cysharp.zstring",
+      "expression": "",
+      "define": "ZSTRING_SUPPORT"
+    }
+  ]
+}

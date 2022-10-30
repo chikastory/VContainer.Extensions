@@ -1,0 +1,58 @@
+# Build folders
+[Bb]in/
+[Oo]bj/
+
+# User-specific files
+*.UserSettings
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+
+# JetBrains Rider
+.idea/
+*.DotSettings*
+
+# MonoDevelop
+*.userprefs
+
+# Visual Studio
+.vs/
+.vsconfig
+
+# Visual Studio Code
+.vscode/
+
+# Unity
+/src/VContainer.Extensions/Library/
+/src/VContainer.Extensions/Logs/
+/src/VContainer.Extensions/Temp/
+/src/VContainer.Extensions/UserSettings/
+
+/src/VContainer.Extensions/*.csproj
+/src/VContainer.Extensions/*.sln
+/src/VContainer.Extensions/Packages/packages-lock.json
+
+# Unity Addressables
+/src/VContainer.Extensions/Assets/AddressableAssetsData/*/*.bin*
+/src/VContainer.Extensions/Assets/AddressableAssetsData/link.xml*
+
+# Unity CodeCoverage
+/src/VContainer.Extensions/CodeCoverage/
+/src/VContainer.Extensions/ProjectSettings/Packages/com.unity.testtools.codecoverage/
+
+# Unity Recordings
+/src/VContainer.Extensions/Recordings/
+
+# Unity UI Toolkit
+/src/VContainer.Extensions/UIElementsSchema/
+
+# Unity NuGet importer
+/src/VContainer.Extensions/NuGet/
+/src/VContainer.Extensions/Packages/*
+/src/VContainer.Extensions/ProjectSettings/existingPackages.xml
+/src/VContainer.Extensions/ProjectSettings/packageAsmNames.json
+/src/VContainer.Extensions/ProjectSettings/rootPackages.xml
+
+!/src/VContainer.Extensions/Packages/manifest.json
+!/src/VContainer.Extensions/Packages/VContainer.Extensions
